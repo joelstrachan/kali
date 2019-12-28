@@ -22,7 +22,7 @@ host = options.target
 port = options.port
 inputfile = options.filename
 
-if len(sys.argv) != 7:
+if len(sys.argv) != 6:
     print ("\n|---------------------------------------------------------------|")
     print ("|             SMTP vrfy enumeration scanner v0.5                |")
     print ("|                      by MrMe 07/2009                          |")
@@ -32,18 +32,15 @@ parser.print_help()
 sys.exit()
 
 
-
 try:
     names = open(sys.argv[6], "r")
 except(IOError):
     print("Error: Check your wordlist path\n")
-sys.exit(1)
-
-line = names.readline()
-counter = 0
-
-print ("[+] Connecting to server")
-s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+    sys.exit(1)
+    line = names.readline()
+    counter = 0
+    print ("[+] Connecting to server")
+    s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
 def connect():
     try:
@@ -62,7 +59,6 @@ def connect():
 def timer():
     now = time.localtime(time.time())
     return time.asctime(now)
-
     connect()
 
     for line in names:
