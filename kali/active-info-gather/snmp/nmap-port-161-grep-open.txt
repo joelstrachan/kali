@@ -1,0 +1,25 @@
+# Nmap 7.70 scan initiated Fri Dec 27 20:13:46 2019 as: nmap -sU --open -p 161 --open -oG port161nmapscan 10.11.1.1-254
+Host: 10.11.1.7 ()	Ports: 161/open|filtered/udp//snmp///
+Host: 10.11.1.10 ()	Ports: 161/open|filtered/udp//snmp///
+Host: 10.11.1.13 ()	Ports: 161/open|filtered/udp//snmp///
+Host: 10.11.1.14 ()	Ports: 161/open|filtered/udp//snmp///
+Host: 10.11.1.22 ()	Ports: 161/open/udp//snmp///
+Host: 10.11.1.49 ()	Ports: 161/open|filtered/udp//snmp///
+Host: 10.11.1.50 ()	Ports: 161/open|filtered/udp//snmp///
+Host: 10.11.1.73 ()	Ports: 161/open|filtered/udp//snmp///
+Host: 10.11.1.75 ()	Ports: 161/open|filtered/udp//snmp///
+Host: 10.11.1.115 ()	Ports: 161/open/udp//snmp///
+Host: 10.11.1.125 ()	Ports: 161/open|filtered/udp//snmp///
+Host: 10.11.1.128 ()	Ports: 161/open|filtered/udp//snmp///
+Host: 10.11.1.133 ()	Ports: 161/open|filtered/udp//snmp///
+Host: 10.11.1.141 ()	Ports: 161/open|filtered/udp//snmp///
+Host: 10.11.1.145 ()	Ports: 161/open|filtered/udp//snmp///
+Host: 10.11.1.218 ()	Ports: 161/open|filtered/udp//snmp///
+Host: 10.11.1.219 ()	Ports: 161/open|filtered/udp//snmp///
+Host: 10.11.1.221 ()	Ports: 161/open|filtered/udp//snmp///
+Host: 10.11.1.226 ()	Ports: 161/open|filtered/udp//snmp///
+Host: 10.11.1.227 ()	Ports: 161/open|filtered/udp//snmp///
+Host: 10.11.1.229 ()	Ports: 161/open|filtered/udp//snmp///
+Host: 10.11.1.247 ()	Ports: 161/open|filtered/udp//snmp///
+Host: 10.11.1.251 ()	Ports: 161/open|filtered/udp//snmp///
+Host: 10.11.1.252 ()	Ports: 161/open|filtered/udp//snmp///
