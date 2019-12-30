@@ -31,16 +31,20 @@ if len(sys.argv) != 6:
 parser.print_help()
 sys.exit()
 
+openfile():
 
-try:
-    names = open(sys.argv[6], "r")
-except(IOError):
-    print("Error: Check your wordlist path\n")
-    sys.exit(1)
-    line = names.readline()
-    counter = 0
-    print ("[+] Connecting to server")
-    s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+def openfile():
+    try:
+        names = open(sys.argv[6], "r")
+    except(IOError):
+        print("Error: Check your wordlist path\n")
+        sys.exit(1)
+        line = names.readline()
+        counter = 0
+        print ("[+] Connecting to server")
+        s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+
+
 
 def connect():
     try:
