@@ -1,4 +1,0 @@
-# Nmap 7.70 scan initiated Thu Dec 26 20:57:48 2019 as: nmap -A -oG labwin7osdection 10.11.8.12
-Host: 10.11.8.12 ()	Status: Up
-Host: 10.11.8.12 ()	Ports: 25/open/tcp//smtp//Mercury|32 smtpd (Mail server account Maiser)/, 79/open/tcp//finger//Mercury|32 fingerd/, 106/open/tcp//pop3pw//Mercury|32 poppass service/, 110/open/tcp//pop3//Mercury|32 pop3d/, 143/open/tcp//imap//Mercury|32 imapd 4.52/, 3389/open/tcp//ms-wbt-server//Microsoft Terminal Service/	Ignored State: filtered (994)	Seq Index: 257	IP ID Seq: Incremental
-# Nmap done at Thu Dec 26 20:58:38 2019 -- 1 IP address (1 host up) scanned in 49.68 seconds

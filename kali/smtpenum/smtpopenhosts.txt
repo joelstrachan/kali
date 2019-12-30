@@ -1,7 +1,0 @@
-Host: 10.11.1.22 ()	Ports: 25/open/tcp//smtp///
-Host: 10.11.1.72 ()	Ports: 25/open/tcp//smtp///
-Host: 10.11.1.115 ()	Ports: 25/open/tcp//smtp///
-Host: 10.11.1.128 ()	Ports: 25/open/tcp//smtp///
-Host: 10.11.1.217 ()	Ports: 25/open/tcp//smtp///
-Host: 10.11.1.227 ()	Ports: 25/open/tcp//smtp///
-Host: 10.11.1.229 ()	Ports: 25/open/tcp//smtp///
